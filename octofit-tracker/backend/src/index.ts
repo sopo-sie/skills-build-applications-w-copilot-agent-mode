@@ -2,6 +2,8 @@ import express from 'express'
 import mongoose from 'mongoose'
 import apiRouter from './routes/api.js'
 
+// CI: touch - non-functional change to trigger workflow checks
+
 const app = express()
 const port = process.env.PORT ? Number(process.env.PORT) : 8000
 const mongoUri = process.env.MONGO_URI ?? 'mongodb://127.0.0.1:27017/octofit_db'
