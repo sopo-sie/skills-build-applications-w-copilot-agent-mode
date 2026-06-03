@@ -3,6 +3,7 @@ import mongoose from 'mongoose'
 import apiRouter from './routes/api.js'
 
 // CI: touch - non-functional change to trigger workflow checks
+// CI: combined commit for workflow trigger
 
 const app = express()
 const port = process.env.PORT ? Number(process.env.PORT) : 8000
